@@ -67,7 +67,7 @@ resource "aws_s3_bucket_policy" "dest-bucket-policy" {
            {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::237092322265:root"
+                "AWS": "arn:aws:iam::951600338934:root"
             },
             "Action":[
               "s3:ListBucket",
