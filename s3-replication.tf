@@ -8,7 +8,7 @@ provider "aws" {
   
 # }
 data "aws_s3_bucket" "source" {
-  bucket = "source-test-bucket-050722"
+  bucket = "backend-tf"
   
 }
 
