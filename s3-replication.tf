@@ -76,7 +76,6 @@ resource "aws_s3_bucket_policy" "dest-bucket-policy" {
                 "s3:GetObject",
                 "s3:PutObjectVersionAcl",
                 "s3:GetObjectTagging",
-                "s3:DeleteObject",
                 "s3:GetBucketLocation",
                 "s3:PutObjectAcl"
             ],
